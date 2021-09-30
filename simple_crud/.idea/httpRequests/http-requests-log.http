@@ -1,0 +1,179 @@
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"value": "87",
+    "project": "4"
+}
+
+<> 2021-09-29T102415.201.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"value": "99",
+    "project": "4"
+}
+
+<> 2021-09-29T102314.201.json
+
+###
+
+POST http://localhost:8000/api/v1/place/
+Content-Type: application/json
+
+{
+	"name": "Pupok",
+    "latitude": "14",
+    "longitude": "77"
+}
+
+<> 2021-09-29T102302.201.json
+
+###
+
+GET http://localhost:8000/api/v1/temperature/
+Accept: application/json
+
+<> 2021-09-29T101904.200.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"value": "12",
+    "project": "3"
+}
+
+<> 2021-09-29T101901.201.json
+
+###
+
+DELETE http://localhost:8000/api/v1/place/2/
+Accept: application/json
+
+###
+
+DELETE http://localhost:8000/api/v1/place/1/
+Accept: application/json
+
+###
+
+GET http://localhost:8000/api/v1/temperature/
+Accept: application/json
+
+<> 2021-09-29T101737.200.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"value": "12",
+    "project": "1"
+}
+
+<> 2021-09-29T101732.201.json
+
+###
+
+GET http://localhost:8000/api/v1/place/
+Accept: application/json
+
+<> 2021-09-29T101548.200.json
+
+###
+
+POST http://localhost:8000/api/v1/place/
+Content-Type: application/json
+
+{
+	"name": "Mytishi",
+    "latitude": "28",
+    "longitude": "35"
+}
+
+<> 2021-09-29T101543.201.json
+
+###
+
+DELETE http://localhost:8000/api/v1/cars/temperature/1/
+Accept: application/json
+
+<> 2021-09-29T101515.404.html
+
+###
+
+DELETE http://localhost:8000/api/v1/cars/temperature/
+Accept: application/json
+
+<> 2021-09-29T101427.404.html
+
+###
+
+DELETE http://localhost:8000/api/v1/cars/temperature/1/
+Accept: application/json
+
+<> 2021-09-29T101417.404.html
+
+###
+
+GET http://localhost:8000/api/v1/temperature/
+Accept: application/json
+
+<> 2021-09-29T101055.200.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"name": "Mytishi",
+    "latitude": "28",
+    "longitude": "35"
+}
+
+<> 2021-09-29T101052.201.json
+
+###
+
+GET http://localhost:8000/api/v1/temperature/
+Accept: application/json
+
+<> 2021-09-29T101036.200.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"name": "Мытищи",
+    "latitude": "28",
+    "longitude": "35"
+}
+
+<> 2021-09-29T101020.201.json
+
+###
+
+POST http://localhost:8000/api/v1/temperature/
+Content-Type: application/json
+
+{
+	"name": "Мытищи",
+    "latitude": "28,5",
+    "longitude": "35,9"
+}
+
+<> 2021-09-29T101009.400.json
+
+###
+
